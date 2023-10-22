@@ -34,3 +34,13 @@ GET BY CATEGORY
 GET BY ID
 
 - `http://localhost:3000/product/by/id/:id`
+
+## POST object
+
+```json
+{
+  name:  string
+  category: string,
+  amount: number
+}
+```

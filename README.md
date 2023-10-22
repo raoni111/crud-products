@@ -17,7 +17,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-# </>Rotas
+## </>Rotas
 
 GET, POST
 
@@ -29,8 +29,8 @@ POST, DELETE
 
 GET BY CATEGORY
 
-- `http://localhost:8080/product/by/category/:category`
+- `http://localhost:3000/product/by/category/:category`
 
 GET BY ID
 
-- `http://localhost:8080/product/by/id/:id`
+- `http://localhost:3000/product/by/id/:id`

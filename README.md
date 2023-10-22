@@ -39,8 +39,8 @@ GET BY ID
 
 ```json
 {
-  name:  string
-  category: string,
-  amount: number
+  "name": "string",
+  "category": "string",
+  "amount": "number"
 }
 ```

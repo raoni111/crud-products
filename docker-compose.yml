@@ -5,10 +5,10 @@ services:
     restart: always
     environment:
       YSQL_ROOT_HOST: '172.28.0.1'
-      MYSQL_DATABASE: 'nestjsdb'
-      MYSQL_USER: 'Raoni111'
-      MYSQL_PASSWORD: '2004123'
-      MYSQL_ROOT_PASSWORD: '2004321'
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     ports:
       - '8080:3306'
     expose:

@@ -23,7 +23,7 @@ GET, POST
 
 - `http://localhost:3000/product`
 
-POST, DELETE
+PUT, DELETE
 
 - `http://localhost:3000/product/:id`
 

@@ -44,3 +44,5 @@ GET BY ID
   "amount": "number"
 }
 ```
+## libraries and languages ​​used
+[![My Skills](https://skillicons.dev/icons?i=ts,nest,nodejs,sequelize,mysql,docker,jest&perline=3)](https://skillicons.dev)
